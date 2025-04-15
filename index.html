@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 id="dynamic-heading">Welcome to My Web Page</h1>
+        <button onclick="changeText()">Change Text</button>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a web developer passionate about creating responsive and user-friendly websites.</p>
+            <button onclick="changeStyle()">Change Style</button>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>UI/UX Design</li>
+                <li>SEO Optimization</li>
+            </ul>
+        </section>
+
+        <section id="element-container">
+            <h2>Dynamic Element</h2>
+            <button onclick="toggleElement()">Add/Remove Element</button>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Web Page. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
